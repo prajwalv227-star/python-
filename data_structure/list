@@ -1,0 +1,10 @@
+fruits =[" apple ","banana","cherry","apple "]
+print ("orignal:",fruits)
+  fruits.append ("orange")
+print ("orignal:",fruits)
+  if "banana" in fruits :
+    fruits.remove("banana")
+print ("orignal:",fruits)
+  print ("first fruit:", fruits[-1])
+  upper_fruits=[fruit.upper() for fruit in fruits]
+print ("uppercase fruits:",upper_fruits )
